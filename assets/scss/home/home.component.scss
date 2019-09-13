@@ -90,6 +90,7 @@
   text-align: center;
   color: white;
   font-size: 20px;
+  display: block;
 }
 .eco-logo-name{
   position: absolute;
@@ -101,7 +102,7 @@
   font-size: 80px;
   padding: 10px;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 /*------------------*/
 
@@ -126,16 +127,20 @@
 /*---------------*/
 
 .eco-project-f{
-  padding: 20px;
-  margin-left: 20px;
-  margin-bottom: -5px;
+  text-align: center;
+  margin-bottom: -10px;
   font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F0F0F0;
+
 
 }
 
 .gallery {
   border: 1px solid #ccc;
   box-shadow: 1px 3px 5px #63625c;
+
 }
 
 .gallery:hover {
@@ -144,7 +149,7 @@
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 .desc {
@@ -178,14 +183,17 @@
 
 /*---------------*/
 .eco-product{
-  margin-top: 350px;
+  margin-top: 400px;
 
 }
 
 .eco-product-f{
-  margin-left: 20px;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
   font-size: 30px;
+  text-align: center;
+  background-color: #F0F0F0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 
 }
@@ -196,17 +204,21 @@
 /*---------------*/
 
 .eco-about{
-  margin-top: 650px;
+  margin-top: 400px;
   font-size: 20px;
   font-family: Calibri, Arial;
 }
 .eco-about-f{
-  margin-left: 20px;
-  margin-bottom: -5px;
+  margin-bottom: -10px;
   font-size: 30px;
+  text-align: center;
+  background-color: #F0F0F0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .image-about{
   margin-bottom: 600px;
+  text-align: center;
 
 
 
@@ -233,6 +245,11 @@
 .desc {
   padding: 15px;
   text-align: center;
+}
+.desc button{
+  font-size: 15px;
+  background-color: #cccccc;
+  padding: 1px 100px;
 }
 
 * {
